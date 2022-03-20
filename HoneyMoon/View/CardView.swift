@@ -54,7 +54,7 @@ struct CardView: View {
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView(honeymoon: honeymooonData[1])
+        CardView(honeymoon: honeymooonData[4])
             .previewLayout(.fixed(width: 375, height: 600))
     }
 }

@@ -9,7 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        CardView(honeymoon: honeymooonData[1])
+        VStack {
+            HeaderView()
+            
+            Spacer()
+            
+            CardView(honeymoon: honeymooonData[4])
+            //Fixme: ADD padding to the cards later on.
+                .padding()
+            
+            Spacer()
+        }
     }
 }
 
