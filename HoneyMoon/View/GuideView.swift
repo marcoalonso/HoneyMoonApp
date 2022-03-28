@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct GuideView: View {
+    // MARK: - Properties
+    @Environment(\.presentationMode) var presentationMode
+    
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
             VStack {
@@ -38,7 +41,7 @@ struct GuideView: View {
                 Spacer(minLength: 10)
                 
                 Button(action: {
-                    
+                    self.presentationMode.wrappedValue.dismiss()
                 }) {
                     Text("Continue".uppercased())
                         .padding()

@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     // MARK: - Properties
+    @State var showGuide: Bool = false
     
     @State var showAlert: Bool = false
     
@@ -17,7 +18,7 @@ struct ContentView: View {
         VStack {
             
             
-            HeaderView()
+            HeaderView(showGuideView: $showGuide)
             
             Spacer()
             
