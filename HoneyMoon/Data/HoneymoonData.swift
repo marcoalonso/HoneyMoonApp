@@ -14,6 +14,11 @@ var honeymooonData: [Destination] = [
       image: "photo-veligandu-island-maldives"
     ),
     Destination(
+      place: "Ixtapa",
+      country: "Mexico",
+      image: "photo-ixtapa-mexico"
+    ),
+    Destination(
       place: "Paris",
       country: "France",
       image: "photo-paris-france"
