@@ -17,6 +17,7 @@ struct CardView: View, Identifiable {
             .resizable()
             .cornerRadius(24)
             .scaledToFit()
+            //.scaledToFill()
             .frame(minWidth: 0, maxWidth: .infinity)
             .overlay(
                 VStack(alignment: .center, spacing: 12){

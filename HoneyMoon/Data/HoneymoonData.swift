@@ -8,16 +8,22 @@
 import SwiftUI
 
 var honeymooonData: [Destination] = [
+    
+    Destination(
+      place: "Cancun, Qro.",
+      country: "Mexico",
+      image: "photo-cancun-mexico"
+    ),Destination(
+      place: "Ixtapa",
+      country: "Mexico",
+      image: "photo-ixtapa-mexico"
+    ),
     Destination(
       place: "Veligandu",
       country: "Maldives",
       image: "photo-veligandu-island-maldives"
     ),
-    Destination(
-      place: "Ixtapa",
-      country: "Mexico",
-      image: "photo-ixtapa-mexico"
-    ),
+    
     Destination(
       place: "Paris",
       country: "France",
@@ -117,5 +123,9 @@ var honeymooonData: [Destination] = [
       place: "Sydney",
       country: "Australia",
       image: "photo-sydney-australia"
-    )
+    ),
+    Destination(
+      place: "Morelia",
+      country: "Mexico",
+      image: "photo-morelia-mexico")
 ]
